@@ -1,0 +1,92 @@
+﻿body {
+width:100%;
+overflow-x:hidden;
+
+}
+.topnavbar {
+    background-color: #358598;
+    overflow: hidden;
+    padding-bottom: 0;
+    position:fixed;
+    
+    z-index:1;
+    
+}
+    .topnavbar a {
+        display: block;
+        float: right;
+        font-family:'Bookman Old Style';
+        font-size: 18px;
+        text-decoration: none;
+        padding: 30px 24px 28px 34px;
+        color: #e8ecf3;
+        
+        
+        
+    }
+        .topnavbar a.active {
+            color:white;
+            background-color: #F4A896;
+        }
+    .topnavbar a:hover {
+        color: black;
+        background-color:aliceblue;
+
+    }
+.topnav .icon {
+    display: none;
+}
+.modal-footer {
+    padding-bottom: 200px;
+    background-color: #f7f7f7;
+}
+.logo {
+    width: 145px;
+    height: 54px;
+    display: block;
+    float:left;
+    position:fixed;
+    top: -45px;
+    left: 40px;
+    z-index: 1011;
+}
+input{
+    text-decoration:none;
+    padding-top:10px;
+    width: 420px;
+    margin: 36px;
+}
+ 
+.search-placeholder{
+
+    font-family:'Javanese Text';
+    font-size:15px;
+}
+
+.content-home {
+    text-align: center;
+    font-size: 30px;
+    color: #358597;
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
+.content-space {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: end;
+    
+    text-decoration:none;
+}
+    .content-space a {
+        text-decoration: none;
+        color: #358598;
+        padding-right: 15px;
+    }
+.headertext {
+    text-align: center;
+    font-size: 30px;
+    
+}
+.* {
+    box-sizing: border-box;
+}
